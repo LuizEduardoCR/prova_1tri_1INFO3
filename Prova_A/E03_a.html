@@ -8,11 +8,15 @@
     */
 
     //ENTRADA
-
+    const nota1 = Number(prompt("insira a sua nota na primeira prova"));
+    const nota2 = Number(prompt("insira a sua nota na segunda prova"));
+    const nota3 = Number(prompt("insira a sua nota na terceira prova"));
 
     //PROCESSAMENTO
-
-
+    notaCerta1 = nota1*0.1;
+    notaCerta2 = nota2*0.2;
+    notaCerta3 = nota3*0.7
+    media = Number(notaCerta1+notaCerta2+notaCerta3);
     //SAÍDA
-
+    alert(`sua media semestral é de ${media}`);
 </script>

@@ -9,11 +9,17 @@
     */
 
     //ENTRADA
-
+    const precoGarrafa = Number(prompt("insira o preco da garrafa de vinho:"));
 
     //PROCESSAMENTO
-
-
+    MLdoisanos = (375*365)*2;
+    LitrosdoisAnos = Number (MLdoisanos/1000);
+    gastoDoisAnos = precoGarrafa*365;
+    
+    
     //SAÍDA
-
+    alert(`Voce bebeu ${LitrosdoisAnos}L em dois anos e gastou R$${gastoDoisAnos}`);
 </script>
+
+
+
